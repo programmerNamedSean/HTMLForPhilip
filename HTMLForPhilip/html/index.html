@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html id="index" lang="en">
+
+<head>
+    <title>Efiwe Home Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <script type="text/javascript" src="jquery-1.8.3.js"></script>
+
+</head>
+
+<body>
+    <main id="indextest">
+        <div id="navbar">
+            <center>
+                <a href="index.html"> <button id="basic" type="button">Home</button></a>
+                <div class="dropdown">
+                    <button class="dropbtn" id="basic" type="button">Login/Register</button>
+                    <div class="dropdown-content">
+                        <a href="login.html">Login</a>
+                        <a href="signUp.html">Sign up!</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn" id="basic" type="button">Locations</button>
+                    <div class="dropdown-content">
+                        <a href="locations.html">Find a Location</a>
+                        <a href="locations.html">Popular</a>
+                        <a href="locations.html">Directions</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn" id="basic" type="button">Contact/About</button>
+                    <div class="dropdown-content">
+                        <a href="contact.html">Contact</a>
+                        <a href="about.html">About us</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn" id="basic" type="button">Blogs</button>
+                    <div class="dropdown-content">
+                        <a href="general_Info.html">Sugestions</a>
+                        <a href="general_Info.html">Book Drives</a>
+                        <a href="general_Info.html">Helping Nigeria</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn" id="basic" type="button">Our Team</button>
+                    <div class="dropdown-content">
+                        <a href="general_Info.html">State Side</a>
+                        <a href="general_Info.html">Nigeria Side</a>
+                        <a href="general_Info.html">School Sponsors</a>
+                        <a href="general_Info.html">Corporate Sponsors</a>
+                    </div>
+                </div>
+                <button type="" id="social-links"><img src="../img/facebookIcon.jpg" alt=""></img></button>
+                <button type="" id="social-links"><img src="../img/twittericon.jpg" alt=""></img></button>
+                <button type="" id="social-links"><img src="../img/instagram.jpg" alt=""></img></button>
+            </center>
+
+        </div>
+        <h1 id="firstHeader">Welcome to
+            <u>Efiwe's</u> Home Site!</h1>
+        <center>
+            <div class="slideshow-container" role="banner">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img class="halfsize" src="../img/books.jpg" style="width:100%; height:50%">
+                    <div class="text">Give
+                        <u>books</u>, making a <u>change</u>.</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img class="halfsize" src="../img/books2.jpg" style="width:100%; height:50%">
+                    <div class="text">How
+                        <u>you can</u> help now!</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img class="halfsize" src="../img/books3.jpg" style="width:100%; height:50%">
+                    <div class="text">Find a local book drive
+                        <u>near you!</u>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <script>
+                var slideIndex = 0;
+                showSlides();
+
+            function showSlides() {
+                var i;
+                 var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1}    
+                for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+                setTimeout(showSlides, 7000); // Change image every 2 seconds
+            }
+    </script>
+        </center>
+        <div id="table_area"> 
+            <caption id="general_table_info_caption">
+                <h1 id="firstHeaderPrime">How does Efiwe work?</h1>
+            </caption>
+           <center> <img src="../img/book_donation_process.png" alt=""></img>
+           <p><u>Effiwe works in three easy steps</u></br> 1: a book or group of books are donated
+           </br>2: we wrap the books indvidually then place them into box for shipping
+           </br>3:The books are shipped and delivered to happy students in Nigeria</p></center>
+            <center>
+                <div id="space_eater"></div>
+                <h1 id="firstHeaderPrime">Frequently Asked:</h1>
+                <table id="how_We_Work">
+                    <th id="general_info">
+                        <tr>
+                            <td id="title">
+                                <h1 id="firstHeader1">How do we get our books?</h1>
+                            </td>
+                            <td id="title">
+                                <h1 id="firstHeader1">How do we go about the shipping?</h1>
+                            </td>
+                            <td id="title">
+                                <h1 id="firstHeader1">How can volunteers make a difference?</h1>
+                            </td>
+                            <td id="title">
+                                <h1 id="firstHeader1">Who usually donates?</h1>
+                            </td>
+                        </tr>
+
+                    </th>
+                    <tbody>
+                        <tr >
+                            <td id="paragraph_Info">
+                                <p>We get our books mainly through student donation, university assistance. 
+                                    They help us by donating books of the collegic level to send to Nigeria to help better improve 
+                                    an create, a more beneficial educational environment.</p><a href="general_Info.html"><button class="dropbtn" id="basic" type="button">Find out more!</button></a>
+                            </td>
+                            <td id="paragraph_Info">
+                               <p>We first examine all the books to make sure they are ready to ship, the books which are ready to ship
+                                   will be wrapped, then placed into a shipping container, each packaged shipped will head directly to
+                                    a school or instituion in need. Which in turn will be given out to the students, so they may broaden there horizon.</p><a href="general_Info.html"><button class="dropbtn" id="basic" type="button">Find out more!</button></a>
+                            </td>
+                            <td id="paragraph_Info">
+                               <p>Volunteers are the most essectinal part to what effiwe is. This website was made by volunteers, the founder is a volunteer, the people who prepare for shipping are volunteers; even the book drive orgranizers, and our book distributors are volunteers. Volunteers are is the most central point to our organization so please read more and see what you can do.</p><a href="general_Info.html"><button class="dropbtn" id="basic" type="button">Find out more!</button></a>
+                            </td>
+                            <td id="paragraph_Info_End">
+                                <p>We get our books from either book donations or book drives started and ran through volunteers. Our book donations mainly come through school and students, with the ocasional text book publisher, or some other corpral donation.</p><a href="general_Info.html"><button class="dropbtn" id="basic" type="button">Find out more!</button></a>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </center>
+            <div id="donor_hall_of_fame" >
+                <h1 id="firstHeader1">Donor And Volunteer Hall of Fame</h1>
+            </div>
+    </main>
+    <aside>
+        <div>
+            <h3>
+                <u>Fun Stories From Book Drives</u>
+            </h3>
+            <p id="aside1">The amount of support for our cause consists of a broad range of people, and coroprations who manufacture our
+                text books to the modest college student. Check out our blog to hear peoples' experinces so far.</br>
+                <a href="general_Info.html"><button id="basic" type="button">Hear more &raquo;</button><a/>
+            </p>
+        </div>
+    </aside>
+    <center>
+        <h1 id="firstHeader">Our Team</h1>
+        <img src="../img/team.jpg" alt="">
+    </center>
+    <footer id="foot">
+        <center>
+            <table id="footer-table">
+                <th>
+                    <tr>
+                        <td>Contact us!</td>
+                        <td>Donation locations!</td>
+                        <td>Follow us!</td>
+                        <td>Quick Like/Follow</td>
+                    </tr>
+                </th>
+                <tbody>
+                    <tr>
+                        <td>Contact info:</td>
+                        <td>Check out the many different locations by either following us on Facebook or Twitter, or by
+                            <button id="basic" type="button">clicking here for more &raquo;</button>
+                        </td>
+                        <td><button id="basic" type="button">Check us out on faceboook &raquo;</button></td>
+                        <td><center>  <button type="" id="social-links2"><img src="../img/facebookIcon.jpg" alt=""></img></button>
+                <button type="" id="social-links2"><img src="../img/twittericon.jpg" alt=""></img></button>
+                <button type="" id="social-links2"><img src="../img/instagram.jpg" alt=""></img></button></center></td>
+                    </tr>
+                    <tr>
+                        <td>Email:
+                            <u>sesulli@siue.edu</u>
+                        </td>
+                        <td></td>
+                        <td><button id="basic" type="button">Follow our lead at twitter &raquo;</button></td>
+                    </tr>
+                    <tr>
+                        <td>Phone:
+                            <u>1-678-972-4589</u>
+                        </td>
+                        <td></td>
+                        <td><button id="basic" type="button">Follow us on instagram &raquo;</button></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+
+                </tfoot>
+            </table>
+        </center>
+        </div>
+        <div id="page-breaker">
+
+        </div>
+    </footer>
+</body>
+
+
+</html>

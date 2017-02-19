@@ -1,0 +1,452 @@
+ body,main{
+	height: 170%;
+}
+html#small_page{
+    height:1%;
+}
+html#index{
+    height: 170%;
+}
+main#indextest {
+    background-color: ghostwhite;  
+    box-shadow:0 19px 12px green;
+}
+h1#firstHeader {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 900;
+    color: green;
+    text-shadow: 1px 1px 8px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+h1#firstHeader:hover {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 900;
+    color: limegreen;
+    text-shadow: none;
+}
+h2#secondHeader {
+      color: green;
+      text-shadow: 1px 2.4px 2px black, 0 0 25px lightgreen, 0 0 5px darkblue;
+}
+h3 {
+     margin-top: 45px;
+     margin-left: 25px;
+     margin-bottom: 1px;
+     color: green;
+     text-shadow: 1px 2.4px 2px black, 0 0 25px lightgreen, 0 0 5px darkblue;
+}
+button#basic {
+    margin-top:5px;
+    background-color: transparent;
+    border: none;
+    font-family: PressStart;
+}
+button#basic:hover {
+    cursor: pointer;
+    background-color: white;
+    transition: all .843s ease-in-out;
+    color: green;
+    width: 170px;
+    height: 37px;
+    box-shadow: 0 8px 2px green;
+    font-size: medium;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+div#bodyContainer {
+    box-shadow:5px 5px 5px 2px green;
+    width: 100%;
+    margin: auto;
+}
+
+p#aside1 {
+    background-color: #e2e2e2;
+    float: left;
+    width: 21%;
+    box-shadow: 0px 8px 16px 0px green;
+    text-align: center;
+    font-family: PressStart;
+    margin-left: 27px;
+    margin-bottom: 10px;
+}
+
+button#basic2 { 
+    margin-top:5px;
+    background-color: transparent;
+    border: none;
+}
+
+button#basic2:hover {
+    cursor: pointer;
+    background-color: #f2f2f2;
+    color: green;
+    width: 170px;
+    height: 37px;
+    box-shadow: 0 12px 2px green;
+    font-size: medium;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.wrapper {
+  min-height: 75%;
+  margin-bottom: -50px;
+ }
+
+
+h1#dashboardTitle {
+    margin-top: 30px;
+    text-decoration: underline;
+    font-family: PressStart;
+}
+
+div#navbar {  
+     z-index: 99999;
+    background-color: white;
+    width: 100%;
+    border-bottom: 2px solid gray;
+    transition: all .843s ease-in-out;
+    position: fixed;
+    top: 0;
+}
+
+div#navbar:hover {
+    width:100%;
+    background-color: #f2f2f2;
+    box-shadow: 0 8px 2px lightgray;
+}
+
+body#test {
+    margin-top: 100px;
+}
+
+div#footer-containment {
+    background-color: lightgrey;
+    width: 100%;
+    height: 45%;
+    position: absolute;
+    bottom:-100%;
+}
+
+div#push-footer {
+    margin-top: 15%;
+    position: relative;
+    bottom: 0;
+    align-items: center;
+    text-align: center;
+}
+
+table#push-foot {
+    align-self: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 210px;
+    box-shadow: 0px 8px 16px 0px green;
+    z-index: 1;
+}
+
+.dropdown-content a {
+     min-width: 210px;
+    cursor: pointer;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    cursor: pointer;
+    background-color: white;
+    transition: all .843s ease-in-out;
+    color: green;
+    width: 170px;
+    height: 37px;
+    box-shadow: -1px 7px 7px 7px  green;
+    font-size: medium;
+    font-weight: 900;
+    text-decoration: underline;
+ }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1200px;
+  max-height: 500px;
+    box-shadow: -1px 7px 7px 7px  green;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 35px;
+  font-weight: bolder;
+  padding: 8px 12px;
+  position: relative;
+  bottom: 16px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+footer#foot{
+    width: 100%;
+   margin:auto;
+    position: absolute;
+    margin-top: 45%;
+    align-content: center;
+    background-color: lightgray;
+
+}
+table#footer-table td{
+    width: 375px;
+    height: 50px;
+    text-align: center;
+}
+div#page-breaker{
+    margin-top: 40px;
+    width: 100%;
+}
+button#social-links{
+    margin-right: 20px;
+    top: 0;
+    background: transparent;
+    border: none;
+    float: right;
+    margin-top:0;
+}
+button#social-links2{
+   
+    top: 0;
+    background: transparent;
+    border: none;
+    
+    margin-top:0;
+}
+div#aside{
+    float: right;
+  
+}
+p#aside2{
+    width:25%;
+    float:right;
+ 
+}
+img#imgaside2{
+float:right;
+}
+
+.halfsize {
+    
+    height: 50%;
+}
+table#how_We_Work{
+    box-shadow: -1px 7px 7px 7px  green;
+    margin-top: 75px;
+     background-color: aliceblue;
+}
+h1#firstHeader1{
+    text-align: center;
+    text-decoration: underline;
+     margin-top: 50px;
+    text-align: center;
+    font-weight: 900;
+    color: green;
+    text-shadow: 1px 1px 8px black, 0 0 25px blue;
+}
+h1#firstHeader1:hover{
+    text-align: center;
+    text-decoration: underline;
+     margin-top: 50px;
+    text-align: center;
+    font-weight: 900;
+    color: limegreen;
+    text-shadow: none;
+}
+h1#firstHeaderPrime{
+    font-size: 100px;
+    text-align: center;
+    text-decoration: underline;
+     margin-top: 50px;
+    text-align: center;
+    font-weight: 900;
+    color: green;
+    text-shadow: 1px 1px 8px black, 0 0 25px blue;
+}
+h1#firstHeaderPrime:hover{
+    font-size: 100px;
+    text-align: center;
+    text-decoration: underline;
+     margin-top: 50px;
+    text-align: center;
+    font-weight: 900;
+    color: limegreen;
+    text-shadow:none;
+}
+table th#general_info{
+    position: relative;
+    float: right;
+    width: 100%;
+    margin-left: 100px;
+}
+table td#title{
+    width: 400px;
+}
+table td#paragraph_Info{
+    width: 500px;
+   text-align: center;
+   border-right:  solid lightblue;
+}
+table td#paragraph_Info_End{
+    width: 500px;
+   text-align: center;
+ 
+}
+caption#general_table_info_caption{
+  
+    width: 100%;
+}
+div#table_area{
+    width:100%;
+    margin-top: 30%;
+    position: relative;
+    font-family: PressStart;
+  
+}
+table tbody tr#pargraph_Background{
+    background-color: aliceblue;
+}
+div#donor_hall_of_fame{
+   margin-top: 237px;
+}
+
+div#login_frame_interior{
+    height: 200px;
+    width : 600px;
+    background-color: lightgreen;
+    margin-top: 80px;
+   
+}
+div#register_frame_interior{
+    height: 300px;
+    width : 600px;
+    background-color: lightgreen;
+    margin-top: 80px;
+   
+}
+button#login{
+     bottom: 0;
+    margin-top:5px;
+    background-color: transparent;
+    border: none;
+    font-family: PressStart;
+}
+button#login:hover{
+     cursor: pointer;
+    background-color: white;
+    transition: all .843s ease-in-out;
+    color: green;
+    width: 170px;
+    height: 37px;
+    box-shadow: 0 8px 2px green;
+    font-size: medium;
+    font-weight: 900;
+    text-decoration: underline;
+}
+table#login_frame {
+  
+}
+div#float_left{
+    float :left;
+}
+table#login_frame td{
+    height:75px;
+    width: 150px;
+}
+h1#loginHeader{
+    font-size: 100px;
+    text-align: center;
+    text-decoration: underline;
+     margin-top: 50px;
+    text-align: center;
+    font-weight: 900;
+    color: green;
+    text-shadow: 1px 1px 8px black, 0 0 25px blue;
+}
+h1#loginHeader:hover{
+    font-size: 100px;
+    text-align: center;
+    text-decoration: underline;
+     margin-top: 50px;
+    text-align: center;
+    font-weight: 900;
+    color: limegreen;
+    text-shadow:none;
+}
+div#space_eater{
+    margin-top: 45
+    0px;
+}
