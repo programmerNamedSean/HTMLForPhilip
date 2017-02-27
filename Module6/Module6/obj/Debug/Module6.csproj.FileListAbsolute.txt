@@ -1,0 +1,6 @@
+c:\users\owner\documents\visual studio 2015\Projects\Module6\Module6\bin\Debug\Module6.exe.config
+c:\users\owner\documents\visual studio 2015\Projects\Module6\Module6\bin\Debug\Module6.exe
+c:\users\owner\documents\visual studio 2015\Projects\Module6\Module6\bin\Debug\Module6.pdb
+c:\users\owner\documents\visual studio 2015\Projects\Module6\Module6\obj\Debug\Module6.csprojResolveAssemblyReference.cache
+c:\users\owner\documents\visual studio 2015\Projects\Module6\Module6\obj\Debug\Module6.exe
+c:\users\owner\documents\visual studio 2015\Projects\Module6\Module6\obj\Debug\Module6.pdb
